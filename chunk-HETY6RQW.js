@@ -1,0 +1,390 @@
+import{o as k,p as ae}from"./chunk-J2OK2TAB.js";import{Fa as te,Ka as oe,O as M,Q as $,Va as ne,lb as ie,ra as W,sa as ee,v as B,xb as v,yb as C}from"./chunk-ER3PPZVH.js";import{Ca as w,Eb as _,Fc as q,Gc as L,Hc as V,Ic as F,Jc as A,Ka as o,La as t,M as T,Ma as i,P as H,Qa as D,Ra as S,Sb as X,T as c,U as u,Wc as Y,Yc as Z,_c as j,ab as K,bb as e,db as y,fb as x,gb as E,hb as g,ia as r,ja as z,mb as N,nb as P,ob as Q,pa as h,qa as O,tb as U,ub as J,za as s}from"./chunk-TTO7B3JZ.js";var xe=()=>({value:"1",label:"Option 1"}),Ee=()=>({value:"2",label:"Option 2"}),ge=(a,he)=>[a,he],le=(()=>{class a{static \u0275fac=function(p){return new(p||a)};static \u0275cmp=h({type:a,selectors:[["sample-po-checkbox-group-basic"]],standalone:!1,decls:1,vars:6,consts:[["name","checkboxGroup","p-label","PO Checkbox Group",3,"p-options"]],template:function(p,n){p&1&&i(0,"po-checkbox-group",0),p&2&&s("p-options",Q(3,ge,N(1,xe),N(2,Ee)))},dependencies:[M],encapsulation:2})}return a})();var fe=a=>({"docs-sample-code-tabs":a}),pe=(()=>{class a{hideSampleCodeTabs=!0;sampleCodeButtonLabel="Talk is cheap, show me the code!";sampleCodeButtonIcon="an an-plus";toggleSampleCodeTabs(){this.hideSampleCodeTabs=!this.hideSampleCodeTabs,this.sampleCodeButtonLabel=this.hideSampleCodeTabs?"Talk is cheap, show me the code!":"Okay, hide the code",this.sampleCodeButtonIcon=this.hideSampleCodeTabs?"an an-plus":"an an-minus"}static \u0275fac=function(p){return new(p||a)};static \u0275cmp=h({type:a,selectors:[["sample-po-checkbox-group-basic-view"]],standalone:!1,decls:24,vars:6,consts:[[1,"sample-blockquote"],[1,"sample-title","po-font-text-large-bold"],[1,"show-me-the-code",3,"click"],[3,"ngClass"],["p-size","2"],["p-label","HTML","p-active",""],[1,"doc-label-path"],["appCodeHighlight","",1,"html"],["p-label","TS"],["appCodeHighlight","",1,"typescript"],[1,"docs-sample-container"]],template:function(p,n){p&1&&(i(0,"br"),o(1,"blockquote",0)(2,"label",1),e(3,"PO Checkbox Group Basic"),t(),o(4,"a",2),S("click",function(){return n.toggleSampleCodeTabs()}),i(5,"span"),e(6),t()(),o(7,"div",3)(8,"po-tabs",4)(9,"po-tab",5)(10,"div")(11,"label",6),e(12,"sample-po-checkbox-group-basic/sample-po-checkbox-group-basic.component.html"),t(),o(13,"pre",7),e(14,`<po-checkbox-group
+  name="checkboxGroup"
+  p-label="PO Checkbox Group"
+  [p-options]="[
+    { value: '1', label: 'Option 1' },
+    { value: '2', label: 'Option 2' }
+  ]"
+>
+</po-checkbox-group>
+`),t()()(),o(15,"po-tab",8)(16,"div")(17,"label",6),e(18,"sample-po-checkbox-group-basic/sample-po-checkbox-group-basic.component.ts"),t(),o(19,"pre",9),e(20,`import { Component } from '@angular/core';
+
+@Component({
+  selector: 'sample-po-checkbox-group-basic',
+  templateUrl: './sample-po-checkbox-group-basic.component.html',
+  standalone: false
+})
+export class SamplePoCheckboxGroupBasicComponent {}
+`),t()()()()(),o(21,"div",10),i(22,"sample-po-checkbox-group-basic"),t(),i(23,"hr")),p&2&&(r(5),w("po-icon "+n.sampleCodeButtonIcon),r(),y(" ",n.sampleCodeButtonLabel,""),r(),s("ngClass",P(4,fe,n.hideSampleCodeTabs)))},dependencies:[_,k,v,C,le],encapsulation:2})}return a})();var re=(()=>{class a{helperText;checkboxGroup;columns;disabled;event;help;indeterminate;label;option;options;properties;fieldErrorMessage;size;columnOptions=[{label:"1 column",value:1},{label:"2 columns",value:2},{label:"3 columns",value:3},{label:"4 columns",value:4}];propertiesOptions=[{value:"disabled",label:"Disabled"},{value:"indeterminate",label:"Indeterminate"},{value:"optional",label:"Optional"},{value:"required",label:"Required"},{value:"showRequired",label:"Show Required"},{value:"errorLimit",label:"Limit Error Message"},{value:"labelTextWrap",label:"Label Text Wrap"}];sizeOptions=[{label:"small",value:"small"},{label:"medium",value:"medium"}];ngOnInit(){this.restore()}addOption(){this.options=[...this.options,this.option],this.clearOption()}changeEvent(m){this.event=m}restore(){this.helperText="",this.checkboxGroup=void 0,this.columns=void 0,this.disabled=!1,this.event=void 0,this.help="",this.indeterminate=void 0,this.label=void 0,this.options=[],this.properties=[],this.fieldErrorMessage="",this.size="medium",this.clearOption()}clearOption(){this.option={label:void 0,value:void 0}}static \u0275fac=function(p){return new(p||a)};static \u0275cmp=h({type:a,selectors:[["sample-po-checkbox-group-labs"]],standalone:!1,decls:26,vars:33,consts:[["fOption","ngForm"],["f","ngForm"],["name","checkboxGroup",3,"ngModelChange","p-change","p-keydown","ngModel","p-helper","p-columns","p-disabled","p-help","p-indeterminate","p-label","p-optional","p-options","p-required","p-field-error-message","p-error-limit","p-show-required","p-label-text-wrap","p-size"],[1,"po-row"],["p-label","Model",1,"po-md-6",3,"p-value"],["p-label","Event",1,"po-md-6",3,"p-value"],["name","optionValue","p-clean","","p-label","Option Value","p-required","",1,"po-md-6",3,"ngModelChange","ngModel"],["name","optionLabel","p-clean","","p-label","Option Label","p-required","",1,"po-md-6",3,"ngModelChange","ngModel"],["name","disabled","p-label","Option Disabled",1,"po-md-6",3,"ngModelChange","ngModel"],["p-label","Add option",1,"po-lg-2","po-md-4",3,"p-click","p-disabled"],["name","label","p-clean","","p-label","Label",1,"po-md-6",3,"ngModelChange","ngModel"],["name","help","p-clean","","p-label","Help",1,"po-md-6",3,"ngModelChange","ngModel"],["name","helperText","p-clean","","p-label","Additional Help",1,"po-md-6",3,"ngModelChange","ngModel"],["name","fieldErrorMessage","p-clean","","p-label","Field Error Message",1,"po-md-6",3,"ngModelChange","ngModel"],["name","properties","p-columns","4","p-label","Properties",1,"po-md-12",3,"ngModelChange","ngModel","p-options"],["name","columns","p-columns","4","p-label","Columns",1,"po-md-12",3,"ngModelChange","ngModel","p-options"],["name","size","p-columns","4","p-label","Size","p-help","Para aplicar o tamanho small, configure o n\xEDvel de acessibilidade para AA, ajust\xE1vel no navbar ou servi\xE7o de tema (https://po-ui.io/documentation/po-theme).",1,"po-md-12",3,"ngModelChange","ngModel","p-options"],["p-label","Sample Restore",1,"po-lg-3","po-md-6",3,"p-click"]],template:function(p,n){if(p&1){let d=D();o(0,"po-checkbox-group",2),g("ngModelChange",function(l){return c(d),E(n.checkboxGroup,l)||(n.checkboxGroup=l),u(l)}),S("p-change",function(){return c(d),u(n.changeEvent("p-change"))})("p-keydown",function(){return c(d),u(n.changeEvent("p-keydown"))}),t(),i(1,"hr"),o(2,"div",3),i(3,"po-info",4),U(4,"json"),i(5,"po-info",5),t(),i(6,"hr"),o(7,"form",null,0)(9,"po-input",6),g("ngModelChange",function(l){return c(d),E(n.option.value,l)||(n.option.value=l),u(l)}),t(),o(10,"po-input",7),g("ngModelChange",function(l){return c(d),E(n.option.label,l)||(n.option.label=l),u(l)}),t(),o(11,"po-switch",8),g("ngModelChange",function(l){return c(d),E(n.option.disabled,l)||(n.option.disabled=l),u(l)}),t(),o(12,"div",3)(13,"po-button",9),S("p-click",function(){return c(d),u(n.addOption())}),t()()(),i(14,"hr"),o(15,"form",null,1)(17,"po-input",10),g("ngModelChange",function(l){return c(d),E(n.label,l)||(n.label=l),u(l)}),t(),o(18,"po-input",11),g("ngModelChange",function(l){return c(d),E(n.help,l)||(n.help=l),u(l)}),t(),o(19,"po-input",12),g("ngModelChange",function(l){return c(d),E(n.helperText,l)||(n.helperText=l),u(l)}),t(),o(20,"po-input",13),g("ngModelChange",function(l){return c(d),E(n.fieldErrorMessage,l)||(n.fieldErrorMessage=l),u(l)}),t(),o(21,"po-checkbox-group",14),g("ngModelChange",function(l){return c(d),E(n.properties,l)||(n.properties=l),u(l)}),t(),o(22,"po-radio-group",15),g("ngModelChange",function(l){return c(d),E(n.columns,l)||(n.columns=l),u(l)}),t(),o(23,"po-radio-group",16),g("ngModelChange",function(l){return c(d),E(n.size,l)||(n.size=l),u(l)}),t(),o(24,"div",3)(25,"po-button",17),S("p-click",function(){return c(d),u(n.restore())}),t()()()}if(p&2){let d=K(8);x("ngModel",n.checkboxGroup),s("p-helper",n.helperText)("p-columns",n.columns)("p-disabled",n.properties.includes("disabled"))("p-help",n.help)("p-indeterminate",n.properties.includes("indeterminate"))("p-label",n.label)("p-optional",n.properties.includes("optional"))("p-options",n.options)("p-required",n.properties.includes("required"))("p-field-error-message",n.fieldErrorMessage)("p-error-limit",n.properties==null?null:n.properties.includes("errorLimit"))("p-show-required",n.properties.includes("showRequired"))("p-label-text-wrap",n.properties.includes("labelTextWrap"))("p-size",n.size),r(3),s("p-value",J(4,31,n.checkboxGroup)),r(2),s("p-value",n.event),r(4),x("ngModel",n.option.value),r(),x("ngModel",n.option.label),r(),x("ngModel",n.option.disabled),r(2),s("p-disabled",d.invalid),r(4),x("ngModel",n.label),r(),x("ngModel",n.help),r(),x("ngModel",n.helperText),r(),x("ngModel",n.fieldErrorMessage),r(),x("ngModel",n.properties),s("p-options",n.propertiesOptions),r(),x("ngModel",n.columns),s("p-options",n.columnOptions),r(),x("ngModel",n.size),s("p-options",n.sizeOptions)}},dependencies:[A,q,L,F,V,B,M,$,te,W,ne,X],encapsulation:2})}return a})();var we=a=>({"docs-sample-code-tabs":a}),de=(()=>{class a{hideSampleCodeTabs=!0;sampleCodeButtonLabel="Talk is cheap, show me the code!";sampleCodeButtonIcon="an an-plus";toggleSampleCodeTabs(){this.hideSampleCodeTabs=!this.hideSampleCodeTabs,this.sampleCodeButtonLabel=this.hideSampleCodeTabs?"Talk is cheap, show me the code!":"Okay, hide the code",this.sampleCodeButtonIcon=this.hideSampleCodeTabs?"an an-plus":"an an-minus"}static \u0275fac=function(p){return new(p||a)};static \u0275cmp=h({type:a,selectors:[["sample-po-checkbox-group-labs-view"]],standalone:!1,decls:24,vars:6,consts:[[1,"sample-blockquote"],[1,"sample-title","po-font-text-large-bold"],[1,"show-me-the-code",3,"click"],[3,"ngClass"],["p-size","2"],["p-label","HTML","p-active",""],[1,"doc-label-path"],["appCodeHighlight","",1,"html"],["p-label","TS"],["appCodeHighlight","",1,"typescript"],[1,"docs-sample-container"]],template:function(p,n){p&1&&(i(0,"br"),o(1,"blockquote",0)(2,"label",1),e(3,"PO Checkbox Group Labs"),t(),o(4,"a",2),S("click",function(){return n.toggleSampleCodeTabs()}),i(5,"span"),e(6),t()(),o(7,"div",3)(8,"po-tabs",4)(9,"po-tab",5)(10,"div")(11,"label",6),e(12,"sample-po-checkbox-group-labs/sample-po-checkbox-group-labs.component.html"),t(),o(13,"pre",7),e(14,`<po-checkbox-group
+  name="checkboxGroup"
+  [(ngModel)]="checkboxGroup"
+  [p-helper]="helperText"
+  [p-columns]="columns"
+  [p-disabled]="properties.includes('disabled')"
+  [p-help]="help"
+  [p-indeterminate]="properties.includes('indeterminate')"
+  [p-label]="label"
+  [p-optional]="properties.includes('optional')"
+  [p-options]="options"
+  [p-required]="properties.includes('required')"
+  [p-field-error-message]="fieldErrorMessage"
+  [p-error-limit]="properties?.includes('errorLimit')"
+  [p-show-required]="properties.includes('showRequired')"
+  [p-label-text-wrap]="properties.includes('labelTextWrap')"
+  [p-size]="size"
+  (p-change)="changeEvent('p-change')"
+  (p-keydown)="changeEvent('p-keydown')"
+>
+</po-checkbox-group>
+
+<hr />
+
+<div class="po-row">
+  <po-info class="po-md-6" p-label="Model" [p-value]="checkboxGroup | json"> </po-info>
+
+  <po-info class="po-md-6" p-label="Event" [p-value]="event"> </po-info>
+</div>
+
+<hr />
+
+<form #fOption="ngForm">
+  <po-input class="po-md-6" name="optionValue" [(ngModel)]="option.value" p-clean p-label="Option Value" p-required>
+  </po-input>
+
+  <po-input class="po-md-6" name="optionLabel" [(ngModel)]="option.label" p-clean p-label="Option Label" p-required>
+  </po-input>
+
+  <po-switch class="po-md-6" name="disabled" [(ngModel)]="option.disabled" p-label="Option Disabled"> </po-switch>
+
+  <div class="po-row">
+    <po-button class="po-lg-2 po-md-4" p-label="Add option" [p-disabled]="fOption.invalid" (p-click)="addOption()">
+    </po-button>
+  </div>
+</form>
+
+<hr />
+
+<form #f="ngForm">
+  <po-input class="po-md-6" name="label" [(ngModel)]="label" p-clean p-label="Label"> </po-input>
+
+  <po-input class="po-md-6" name="help" [(ngModel)]="help" p-clean p-label="Help"> </po-input>
+
+  <po-input
+    class="po-md-6"
+    name="helperText"
+    [(ngModel)]="helperText"
+    p-clean
+    p-label="Additional Help"
+  >
+  </po-input>
+
+  <po-input
+    class="po-md-6"
+    name="fieldErrorMessage"
+    [(ngModel)]="fieldErrorMessage"
+    p-clean
+    p-label="Field Error Message"
+  >
+  </po-input>
+
+  <po-checkbox-group
+    class="po-md-12"
+    name="properties"
+    [(ngModel)]="properties"
+    p-columns="4"
+    p-label="Properties"
+    [p-options]="propertiesOptions"
+  >
+  </po-checkbox-group>
+
+  <po-radio-group
+    class="po-md-12"
+    name="columns"
+    [(ngModel)]="columns"
+    p-columns="4"
+    p-label="Columns"
+    [p-options]="columnOptions"
+  >
+  </po-radio-group>
+
+  <po-radio-group
+    class="po-md-12"
+    name="size"
+    [(ngModel)]="size"
+    p-columns="4"
+    p-label="Size"
+    p-help="Para aplicar o tamanho small, configure o n\xEDvel de acessibilidade para AA, ajust\xE1vel no navbar ou servi\xE7o de tema (https://po-ui.io/documentation/po-theme)."
+    [p-options]="sizeOptions"
+  >
+  </po-radio-group>
+
+  <div class="po-row">
+    <po-button class="po-lg-3 po-md-6" p-label="Sample Restore" (p-click)="restore()"> </po-button>
+  </div>
+</form>
+`),t()()(),o(15,"po-tab",8)(16,"div")(17,"label",6),e(18,"sample-po-checkbox-group-labs/sample-po-checkbox-group-labs.component.ts"),t(),o(19,"pre",9),e(20,`import { Component, OnInit } from '@angular/core';
+
+import { PoCheckboxGroupOption, PoRadioGroupOption } from '@po-ui/ng-components';
+
+@Component({
+  selector: 'sample-po-checkbox-group-labs',
+  templateUrl: './sample-po-checkbox-group-labs.component.html',
+  standalone: false
+})
+export class SamplePoCheckboxGroupLabsComponent implements OnInit {
+  helperText: string;
+  checkboxGroup: object;
+  columns: number;
+  disabled: boolean;
+  event: string;
+  help: string;
+  indeterminate: boolean;
+  label: string;
+  option: PoCheckboxGroupOption;
+  options: Array<PoCheckboxGroupOption>;
+  properties: Array<string>;
+  fieldErrorMessage: string;
+  size: string;
+
+  public readonly columnOptions: Array<PoRadioGroupOption> = [
+    { label: '1 column', value: 1 },
+    { label: '2 columns', value: 2 },
+    { label: '3 columns', value: 3 },
+    { label: '4 columns', value: 4 }
+  ];
+
+  public readonly propertiesOptions: Array<PoCheckboxGroupOption> = [
+    { value: 'disabled', label: 'Disabled' },
+    { value: 'indeterminate', label: 'Indeterminate' },
+    { value: 'optional', label: 'Optional' },
+    { value: 'required', label: 'Required' },
+    { value: 'showRequired', label: 'Show Required' },
+    { value: 'errorLimit', label: 'Limit Error Message' },
+    { value: 'labelTextWrap', label: 'Label Text Wrap' }
+  ];
+
+  public readonly sizeOptions: Array<PoRadioGroupOption> = [
+    { label: 'small', value: 'small' },
+    { label: 'medium', value: 'medium' }
+  ];
+
+  ngOnInit() {
+    this.restore();
+  }
+
+  addOption() {
+    this.options = [...this.options, this.option];
+    this.clearOption();
+  }
+
+  changeEvent(event: string) {
+    this.event = event;
+  }
+
+  restore() {
+    this.helperText = '';
+    this.checkboxGroup = undefined;
+    this.columns = undefined;
+    this.disabled = false;
+    this.event = undefined;
+    this.help = '';
+    this.indeterminate = undefined;
+    this.label = undefined;
+    this.options = [];
+    this.properties = [];
+    this.fieldErrorMessage = '';
+    this.size = 'medium';
+
+    this.clearOption();
+  }
+
+  private clearOption() {
+    this.option = { label: undefined, value: undefined };
+  }
+}
+`),t()()()()(),o(21,"div",10),i(22,"sample-po-checkbox-group-labs"),t(),i(23,"hr")),p&2&&(r(5),w("po-icon "+n.sampleCodeButtonIcon),r(),y(" ",n.sampleCodeButtonLabel,""),r(),s("ngClass",P(4,we,n.hideSampleCodeTabs)))},dependencies:[_,k,v,C,re],encapsulation:2})}return a})();var me=(()=>{class a{poNotification=H(ee);attempts;expiration;maxAttempts;periodExpiration;auditOptions=[{value:"1",label:"Functional menu"},{value:"2",label:"Online panel"},{value:"3",label:"Internet browser"},{value:"4",label:"Browser details"},{value:"5",label:"Transparent panel"},{value:"6",label:"Browser refresh"}];systemOptions=[{value:"1",label:"Audit updates in the data dictionary"},{value:"2",label:"Audit updates in the user registry"},{value:"3",label:"Audit authentication / access"},{value:"4",label:"Audit rejection of access to resources"}];confirm(){this.poNotification.success("Settings saved successfully!")}static \u0275fac=function(p){return new(p||a)};static \u0275cmp=h({type:a,selectors:[["sample-po-checkbox-group-password-policy"]],standalone:!1,decls:19,vars:7,consts:[["g","ngForm"],[1,"po-font-subtitle"],[1,"po-row"],["name","system","p-label","System features",1,"po-lg-12",3,"p-options"],["name","audit","p-label","Audit rules",1,"po-lg-12",3,"p-options"],["name","expiration","p-label","Password expiration","p-label-off","Desactive","p-label-on","Actived",1,"po-lg-6",3,"ngModelChange","ngModel"],["name","periodExpiration","p-label","Period (in days)","p-maxlength","3",1,"po-lg-6",3,"p-disabled"],["name","attempts","p-label","Restrict access attempts","p-label-off","Desactive","p-label-on","Actived",1,"po-lg-6",3,"ngModelChange","ngModel"],["name","maxAttempts","p-label","Maximum number of attempts","p-maxlength","3",1,"po-lg-6",3,"ngModelChange","ngModel","p-disabled"],["p-label","Apply password policy",1,"po-offset-lg-9","po-lg-3","po-offset-xl-9",3,"p-click"]],template:function(p,n){if(p&1){let d=D();o(0,"div",1),e(1,"Password Rules"),t(),i(2,"hr"),o(3,"form",null,0)(5,"div",2),i(6,"po-checkbox-group",3),t(),i(7,"hr"),o(8,"div",2),i(9,"po-checkbox-group",4),t(),i(10,"hr"),o(11,"div",2)(12,"po-switch",5),g("ngModelChange",function(l){return c(d),E(n.expiration,l)||(n.expiration=l),u(l)}),t(),i(13,"po-number",6),t(),o(14,"div",2)(15,"po-switch",7),g("ngModelChange",function(l){return c(d),E(n.attempts,l)||(n.attempts=l),u(l)}),t(),o(16,"po-number",8),g("ngModelChange",function(l){return c(d),E(n.maxAttempts,l)||(n.maxAttempts=l),u(l)}),t()(),o(17,"div",2)(18,"po-button",9),S("p-click",function(){return c(d),u(n.confirm())}),t()()()}p&2&&(r(6),s("p-options",n.systemOptions),r(3),s("p-options",n.auditOptions),r(3),x("ngModel",n.expiration),r(),s("p-disabled",!n.expiration),r(2),x("ngModel",n.attempts),r(),x("ngModel",n.maxAttempts),s("p-disabled",!n.attempts))},dependencies:[A,q,L,F,V,B,M,oe,W],encapsulation:2})}return a})();var _e=a=>({"docs-sample-code-tabs":a}),se=(()=>{class a{hideSampleCodeTabs=!0;sampleCodeButtonLabel="Talk is cheap, show me the code!";sampleCodeButtonIcon="an an-plus";toggleSampleCodeTabs(){this.hideSampleCodeTabs=!this.hideSampleCodeTabs,this.sampleCodeButtonLabel=this.hideSampleCodeTabs?"Talk is cheap, show me the code!":"Okay, hide the code",this.sampleCodeButtonIcon=this.hideSampleCodeTabs?"an an-plus":"an an-minus"}static \u0275fac=function(p){return new(p||a)};static \u0275cmp=h({type:a,selectors:[["sample-po-checkbox-group-password-policy-view"]],standalone:!1,decls:24,vars:6,consts:[[1,"sample-blockquote"],[1,"sample-title","po-font-text-large-bold"],[1,"show-me-the-code",3,"click"],[3,"ngClass"],["p-size","2"],["p-label","HTML","p-active",""],[1,"doc-label-path"],["appCodeHighlight","",1,"html"],["p-label","TS"],["appCodeHighlight","",1,"typescript"],[1,"docs-sample-container"]],template:function(p,n){p&1&&(i(0,"br"),o(1,"blockquote",0)(2,"label",1),e(3,"PO Checkbox Group \u2013 Security policy"),t(),o(4,"a",2),S("click",function(){return n.toggleSampleCodeTabs()}),i(5,"span"),e(6),t()(),o(7,"div",3)(8,"po-tabs",4)(9,"po-tab",5)(10,"div")(11,"label",6),e(12,"sample-po-checkbox-group-password-policy/sample-po-checkbox-group-password-policy.component.html"),t(),o(13,"pre",7),e(14,`<div class="po-font-subtitle">Password Rules</div>
+
+<hr />
+
+<form #g="ngForm">
+  <div class="po-row">
+    <po-checkbox-group class="po-lg-12" name="system" p-label="System features" [p-options]="systemOptions">
+    </po-checkbox-group>
+  </div>
+
+  <hr />
+
+  <div class="po-row">
+    <po-checkbox-group class="po-lg-12" name="audit" p-label="Audit rules" [p-options]="auditOptions">
+    </po-checkbox-group>
+  </div>
+
+  <hr />
+
+  <div class="po-row">
+    <po-switch
+      class="po-lg-6"
+      name="expiration"
+      [(ngModel)]="expiration"
+      p-label="Password expiration"
+      p-label-off="Desactive"
+      p-label-on="Actived"
+    >
+    </po-switch>
+
+    <po-number
+      class="po-lg-6"
+      name="periodExpiration"
+      p-label="Period (in days)"
+      p-maxlength="3"
+      [p-disabled]="!expiration"
+    >
+    </po-number>
+  </div>
+
+  <div class="po-row">
+    <po-switch
+      class="po-lg-6"
+      name="attempts"
+      [(ngModel)]="attempts"
+      p-label="Restrict access attempts"
+      p-label-off="Desactive"
+      p-label-on="Actived"
+    >
+    </po-switch>
+
+    <po-number
+      class="po-lg-6"
+      name="maxAttempts"
+      [(ngModel)]="maxAttempts"
+      p-label="Maximum number of attempts"
+      p-maxlength="3"
+      [p-disabled]="!attempts"
+    >
+    </po-number>
+  </div>
+
+  <div class="po-row">
+    <po-button class="po-offset-lg-9 po-lg-3 po-offset-xl-9" p-label="Apply password policy" (p-click)="confirm()">
+    </po-button>
+  </div>
+</form>
+`),t()()(),o(15,"po-tab",8)(16,"div")(17,"label",6),e(18,"sample-po-checkbox-group-password-policy/sample-po-checkbox-group-password-policy.component.ts"),t(),o(19,"pre",9),e(20,`import { Component, inject } from '@angular/core';
+
+import { PoCheckboxGroupOption } from '@po-ui/ng-components';
+
+import { PoNotificationService } from '@po-ui/ng-components';
+
+@Component({
+  selector: 'sample-po-checkbox-group-password-policy',
+  templateUrl: './sample-po-checkbox-group-password-policy.component.html',
+  standalone: false
+})
+export class SamplePoCheckboxGroupPasswordPolicyComponent {
+  private poNotification = inject(PoNotificationService);
+
+  attempts: number;
+  expiration: number;
+  maxAttempts: boolean;
+  periodExpiration: boolean;
+
+  public readonly auditOptions: Array<PoCheckboxGroupOption> = [
+    { value: '1', label: 'Functional menu' },
+    { value: '2', label: 'Online panel' },
+    { value: '3', label: 'Internet browser' },
+    { value: '4', label: 'Browser details' },
+    { value: '5', label: 'Transparent panel' },
+    { value: '6', label: 'Browser refresh' }
+  ];
+
+  public readonly systemOptions: Array<PoCheckboxGroupOption> = [
+    { value: '1', label: 'Audit updates in the data dictionary' },
+    { value: '2', label: 'Audit updates in the user registry' },
+    { value: '3', label: 'Audit authentication / access' },
+    { value: '4', label: 'Audit rejection of access to resources' }
+  ];
+
+  confirm() {
+    this.poNotification.success('Settings saved successfully!');
+  }
+}
+`),t()()()()(),o(21,"div",10),i(22,"sample-po-checkbox-group-password-policy"),t(),i(23,"hr")),p&2&&(r(5),w("po-icon "+n.sampleCodeButtonIcon),r(),y(" ",n.sampleCodeButtonLabel,""),r(),s("ngClass",P(4,_e,n.hideSampleCodeTabs)))},dependencies:[_,k,v,C,me],encapsulation:2})}return a})();var ce=(()=>{class a{static \u0275fac=function(p){return new(p||a)};static \u0275cmp=h({type:a,selectors:[["sample-po-checkbox-group-doc"]],standalone:!1,decls:809,vars:0,consts:[[1,"docs-api"],[1,"docs-api-module-import"],[1,"docs-api-class-description"],[1,"docs-api-h3"],[1,"docs-api-class-name"],[1,"doc-code"],["href","/documentation/po-radio-group"],[1,"docs-api-directive-selectors"],[1,"docs-api-class-selector-label"],["appCodeHighlight",""],[1,"docs-api-h5","docs-api-method-header"],[1,"docs-api-properties-table"],[1,"docs-api-properties-header-row"],[1,"docs-api-properties-th"],[1,"docs-api-properties-row"],[1,"docs-api-properties-name-cell"],[1,"docs-api-output-marker"],[1,"docs-api-output-alias"],[1,"docs-api-deprecated-marker"],[1,"docs-api-properties-type-cell"],["pan","",1,"docs-api-property-type","EventEmitter"],[1,"docs-api-property-default"],[1,"docs-api-property-description"],[1,"docs-api-input-marker"],[1,"docs-api-input-alias"],["pan","",1,"docs-api-property-type","string"],["pan","",1,"docs-api-property-type","boolean"],["pan","",1,"docs-api-property-type","number"],["pan","",1,"docs-api-property-type","PoCheckboxGroupOption[]"],["pan","",1,"docs-api-property-type","PoHelperOptions"],["href","https://po-ui.io/documentation/po-theme"],[1,"docs-api-method-table"],["colspan","2",1,"docs-api-properties-name-cell"],[1,"docs-api-h4","docs-api-class-name"]],template:function(p,n){p&1&&(o(0,"div",0)(1,"p",1)(2,"code"),e(3,"import { PoFieldModule } from '@po-ui/ng-components';"),t()(),o(4,"div",2)(5,"p"),e(6,`M\xF3dulo dos componentes: po-checkbox, po-checkbox-group, po-combo, po-datepicker, po-datepicker-range, po-email, po-input,
+po-lookup, po-number, po-multiselect, po-password, po-radio-group, po-select, po-switch, po-textarea, po-upload
+e po-url.`),t(),o(7,"blockquote")(8,"p"),e(9,"N\xE3o esque\xE7a de importar o m\xF3dulo "),o(10,"code"),e(11,"FormsModule"),t(),e(12,` para usar os componentes de formul\xE1rios e caso esteja trabalhando com
+formul\xE1rios reativos, importe o m\xF3dulo `),o(13,"code"),e(14,"ReactiveFormsModule"),t(),e(15,", ambos nativos do Angular."),t()()(),o(16,"h3",3),e(17,"Componente"),t(),o(18,"h4",4)(19,"code",5),e(20,"PoCheckboxGroupComponent"),t()(),o(21,"div",2)(22,"p"),e(23,"O componente "),o(24,"code"),e(25,"po-checkbox-group"),t(),e(26,` exibe uma lista de m\xFAltipla escolha onde o usu\xE1rio pode marcar e desmarcar,
+utilizando a tecla de espa\xE7o ou o clique do mouse, v\xE1rias op\xE7\xF5es.`),t(),o(27,"blockquote")(28,"p"),e(29,"Para sele\xE7\xE3o \xFAnica, utilize o "),o(30,"a",6)(31,"strong"),e(32,"PO Radio Group"),t()(),e(33,"."),t()(),o(34,"p"),e(35,"Por padr\xE3o, o po-checkbox-group retorna um array com os valores dos itens selecionados para o model."),t(),o(36,"pre")(37,"code"),e(38,`favorites = ['PO', 'Angular'];
+`),t()(),o(39,"p"),e(40,`Na maioria das situa\xE7\xF5es, o array com os objetos setados j\xE1 atende as necessidades mas, caso o desenvolvedor
+tenha necessidade de usar um valor indeterminado (`),o(41,"code"),e(42,"null"),t(),e(43,"), ou seja, nem marcado ("),o(44,"code"),e(45,"true"),t(),e(46,") e nem desmarcado ("),o(47,"code"),e(48,"false"),t(),e(49,`),
+deve setar a propriedade `),o(50,"code"),e(51,"p-indeterminate"),t(),e(52," como "),o(53,"code"),e(54,"true"),t(),e(55,"."),t(),o(56,"p"),e(57,"Nesse caso, o po-checkbox-group vai retornar um objeto com todas as op\xE7\xF5es dispon\xEDveis e seus valores."),t(),o(58,"pre")(59,"code"),e(60,`favorites = {
+ PO: true,
+ Angular: true,
+ VueJS: false,
+ React: null // indeterminado
+};
+`),t()()(),o(61,"div",7)(62,"h4",8),e(63,"Seletor"),t(),o(64,"pre",9),e(65,`<po-checkbox-group
+    (p-additional-help)="EventEmitter"
+    p-additional-help-tooltip="string"
+    p-append-in-body="boolean"
+    p-auto-focus="boolean"
+    (p-change)="EventEmitter"
+    p-columns="number"
+    p-disabled="boolean"
+    p-error-limit="boolean"
+    p-field-error-message="string"
+    p-help="string"
+    p-indeterminate="boolean"
+    (p-keydown)="EventEmitter"
+    p-label="string"
+    p-label-text-wrap="boolean"
+    name="string"
+    (ng-model-change)="EventEmitter"
+    p-optional="boolean"
+    p-options="PoCheckboxGroupOption[]"
+    p-helper="PoHelperOptions | string"
+    p-required="boolean"
+    p-show-required="boolean"
+    p-size="string" >
+</po-checkbox-group>
+`),t()(),o(66,"h4",10),e(67,"Propriedades"),t(),o(68,"table",11)(69,"tr",12)(70,"th",13),e(71,"Nome"),t(),o(72,"th",13),e(73,"Tipo"),t(),o(74,"th",13),e(75,"Padr\xE3o"),t(),o(76,"th",13),e(77,"Descri\xE7\xE3o"),t()(),o(78,"tr",14)(79,"td",15)(80,"div",16)(81,"span",17),e(82," (p-additional-help)"),i(83,"br"),t()(),o(84,"div",18),e(85,"Deprecated"),t()(),o(86,"td",19)(87,"code",20),e(88,"EventEmitter"),t()(),o(89,"td",21),e(90,"-"),t(),o(91,"td",22)(92,"em")(93,"strong"),e(94,"(opcional)"),t()(),o(95,"p"),e(96,`Evento disparado ao clicar no \xEDcone de ajuda adicional.
+Este evento ativa automaticamente a exibi\xE7\xE3o do \xEDcone de ajuda adicional ao `),o(97,"code"),e(98,"p-help"),t(),e(99,"."),t(),o(100,"blockquote")(101,"p"),e(102,"Essa propriedade est\xE1 "),o(103,"strong"),e(104,"depreciada"),t(),e(105," e ser\xE1 removida na vers\xE3o "),o(106,"code"),e(107,"23.x.x"),t(),e(108,". Recomendamos utilizar a propriedade "),o(109,"code"),e(110,"p-helper"),t(),e(111," que oferece mais recursos e flexibilidade."),t()()()(),o(112,"tr",14)(113,"td",15)(114,"div",23)(115,"span",24),e(116," p-additional-help-tooltip"),i(117,"br"),t()(),o(118,"div",18),e(119,"Deprecated"),t()(),o(120,"td",19)(121,"code",25),e(122,"string"),t()(),o(123,"td",21),e(124,"-"),t(),o(125,"td",22)(126,"em")(127,"strong"),e(128,"(opcional)"),t()(),o(129,"p"),e(130,"Exibe um \xEDcone de ajuda adicional ao "),o(131,"code"),e(132,"p-help"),t(),e(133,`, com o texto desta propriedade no tooltip.
+Se o evento `),o(134,"code"),e(135,"p-additional-help"),t(),e(136,` estiver definido, o tooltip n\xE3o ser\xE1 exibido.
+`),o(137,"strong"),e(138,"Como boa pr\xE1tica, indica-se utilizar um texto com at\xE9 140 caracteres."),t()(),o(139,"blockquote")(140,"p"),e(141,"Requer um recuo m\xEDnimo de 8px se o componente estiver pr\xF3ximo \xE0 lateral da tela."),t()(),o(142,"blockquote")(143,"p"),e(144,"Essa propriedade est\xE1 "),o(145,"strong"),e(146,"depreciada"),t(),e(147," e ser\xE1 removida na vers\xE3o "),o(148,"code"),e(149,"23.x.x"),t(),e(150,". Recomendamos utilizar a propriedade "),o(151,"code"),e(152,"p-helper"),t(),e(153," que oferece mais recursos e flexibilidade."),t()()()(),o(154,"tr",14)(155,"td",15)(156,"div",23)(157,"span",24),e(158," p-append-in-body"),i(159,"br"),t()()(),o(160,"td",19)(161,"code",26),e(162,"boolean"),t()(),o(163,"td",21)(164,"p")(165,"code"),e(166,"false"),t()()(),o(167,"td",22)(168,"em")(169,"strong"),e(170,"(opcional)"),t()(),o(171,"p"),e(172,"Define que o popover ("),o(173,"code"),e(174,"p-helper"),t(),e(175," e/ou "),o(176,"code"),e(177,"p-error-limit"),t(),e(178,`) ser\xE1 inclu\xEDdo no body da p\xE1gina e n\xE3o
+dentro do componente. Essa op\xE7\xE3o pode ser necess\xE1ria em cen\xE1rios com containers que possuem scroll ou overflow
+escondido, garantindo o posicionamento correto do tooltip pr\xF3ximo ao elemento.`),t(),o(179,"blockquote")(180,"p"),e(181,"Quando utilizado com "),o(182,"code"),e(183,"p-helper"),t(),e(184,", leitores de tela como o NVDA podem n\xE3o ler o conte\xFAdo do popover."),t()()()(),o(185,"tr",14)(186,"td",15)(187,"div",23)(188,"span",24),e(189," p-auto-focus"),i(190,"br"),t()()(),o(191,"td",19)(192,"code",26),e(193,"boolean"),t()(),o(194,"td",21)(195,"p")(196,"code"),e(197,"false"),t()()(),o(198,"td",22)(199,"em")(200,"strong"),e(201,"(opcional)"),t()(),o(202,"p"),e(203,"Aplica foco no elemento ao ser iniciado."),t(),o(204,"blockquote")(205,"p"),e(206,"Caso mais de um elemento seja configurado com essa propriedade, apenas o \xFAltimo elemento declarado com ela ter\xE1 o foco."),t()()()(),o(207,"tr",14)(208,"td",15)(209,"div",16)(210,"span",17),e(211," (p-change)"),i(212,"br"),t()()(),o(213,"td",19)(214,"code",20),e(215,"EventEmitter"),t()(),o(216,"td",21),e(217,"-"),t(),o(218,"td",22)(219,"em")(220,"strong"),e(221,"(opcional)"),t()(),o(222,"p"),e(223,"Evento disparado ao alterar valor do campo"),t()()(),o(224,"tr",14)(225,"td",15)(226,"div",23)(227,"span",24),e(228," p-columns"),i(229,"br"),t()()(),o(230,"td",19)(231,"code",27),e(232,"number"),t()(),o(233,"td",21)(234,"p")(235,"code"),e(236,"2"),t()()(),o(237,"td",22)(238,"em")(239,"strong"),e(240,"(opcional)"),t()(),o(241,"p"),e(242,"Possibilita definir a quantidade de colunas para exibi\xE7\xE3o dos itens do "),o(243,"em"),e(244,"checkbox"),t(),e(245,"."),t(),o(246,"ul")(247,"li"),e(248,"\xC9 poss\xEDvel exibir as op\xE7\xF5es entre "),o(249,"code"),e(250,"1"),t(),e(251," e "),o(252,"code"),e(253,"4"),t(),e(254," colunas."),t(),o(255,"li"),e(256,"Para resolu\xE7\xE3o "),o(257,"code"),e(258,"sm"),t(),e(259," a colunagem invariavelmente passa para "),o(260,"code"),e(261,"1"),t(),e(262," coluna."),t(),o(263,"li"),e(264,"Quando se trata de resolu\xE7\xE3o "),o(265,"code"),e(266,"md"),t(),e(267," e o valor estabelecido para colunas for superior a "),o(268,"code"),e(269,"2"),t(),e(270,`,
+o `),o(271,"em"),e(272,"grid system"),t(),e(273," ser\xE1 composto por "),o(274,"code"),e(275,"2"),t(),e(276," colunas."),t(),o(277,"li"),e(278,"Para evitar a quebra de linha, prefira a utiliza\xE7\xE3o de "),o(279,"code"),e(280,"1"),t(),e(281," coluna para op\xE7\xF5es com textos grandes."),t()()()(),o(282,"tr",14)(283,"td",15)(284,"div",23)(285,"span",24),e(286," p-disabled"),i(287,"br"),t()()(),o(288,"td",19)(289,"code",26),e(290,"boolean"),t()(),o(291,"td",21)(292,"p")(293,"code"),e(294,"false"),t()()(),o(295,"td",22)(296,"em")(297,"strong"),e(298,"(opcional)"),t()(),o(299,"p"),e(300,"Desabilita todos os itens do checkbox."),t()()(),o(301,"tr",14)(302,"td",15)(303,"div",23)(304,"span",24),e(305," p-error-limit"),i(306,"br"),t()()(),o(307,"td",19)(308,"code",26),e(309,"boolean"),t()(),o(310,"td",21)(311,"p")(312,"code"),e(313,"false"),t()()(),o(314,"td",22)(315,"em")(316,"strong"),e(317,"(opcional)"),t()(),o(318,"p"),e(319,"Limita a exibi\xE7\xE3o da mensagem de erro a duas linhas e exibe um tooltip com o texto completo."),t(),o(320,"blockquote")(321,"p"),e(322,"Caso essa propriedade seja definida como "),o(323,"code"),e(324,"true"),t(),e(325,`, a mensagem de erro ser\xE1 limitada a duas linhas
+e um tooltip ser\xE1 exibido ao passar o mouse sobre a mensagem para mostrar o conte\xFAdo completo.`),t()()()(),o(326,"tr",14)(327,"td",15)(328,"div",23)(329,"span",24),e(330," p-field-error-message"),i(331,"br"),t()()(),o(332,"td",19)(333,"code",25),e(334,"string"),t()(),o(335,"td",21),e(336,"-"),t(),o(337,"td",22)(338,"em")(339,"strong"),e(340,"(opcional)"),t()(),o(341,"p"),e(342,"Exibe a mensagem setada se o campo estiver vazio e for requerido."),t(),o(343,"blockquote")(344,"p"),e(345,"Necess\xE1rio que a propriedade "),o(346,"code"),e(347,"p-required"),t(),e(348," esteja habilitada."),t()()()(),o(349,"tr",14)(350,"td",15)(351,"div",23)(352,"span",24),e(353," p-help"),i(354,"br"),t()()(),o(355,"td",19)(356,"code",25),e(357,"string"),t()(),o(358,"td",21),e(359,"-"),t(),o(360,"td",22)(361,"em")(362,"strong"),e(363,"(opcional)"),t()(),o(364,"p"),e(365,"Texto de apoio do campo"),t()()(),o(366,"tr",14)(367,"td",15)(368,"div",23)(369,"span",24),e(370," p-indeterminate"),i(371,"br"),t()()(),o(372,"td",19)(373,"code",26),e(374,"boolean"),t()(),o(375,"td",21)(376,"p")(377,"code"),e(378,"false"),t()()(),o(379,"td",22)(380,"em")(381,"strong"),e(382,"(opcional)"),t()(),o(383,"p"),e(384,"Caso exista a necessidade de usar o valor indeterminado ("),o(385,"code"),e(386,"null"),t(),e(387,`) dentro da lista de op\xE7\xF5es, \xE9 necess\xE1rio setar
+a propriedade `),o(388,"code"),e(389,"p-indeterminate"),t(),e(390," como "),o(391,"code"),e(392,"true"),t(),e(393,", por padr\xE3o essa propriedade vem desabilitada ("),o(394,"code"),e(395,"false"),t(),e(396,")."),t(),o(397,"p"),e(398,"Quando essa propriedade \xE9 setada como "),o(399,"code"),e(400,"true"),t(),e(401,", o "),o(402,"em"),e(403,"po-checkbox-group"),t(),e(404,` passa a devolver um objeto completo para o
+`),o(405,"code"),e(406,"ngModel"),t(),e(407,", diferente do array que cont\xE9m apenas os valores selecionados."),t()()(),o(408,"tr",14)(409,"td",15)(410,"div",16)(411,"span",17),e(412," (p-keydown)"),i(413,"br"),t()()(),o(414,"td",19)(415,"code",20),e(416,"EventEmitter"),t()(),o(417,"td",21),e(418,"-"),t(),o(419,"td",22)(420,"em")(421,"strong"),e(422,"(opcional)"),t()(),o(423,"p"),e(424,`Evento disparado quando uma tecla \xE9 pressionada enquanto o foco est\xE1 no componente.
+Retorna um objeto `),o(425,"code"),e(426,"KeyboardEvent"),t(),e(427," com informa\xE7\xF5es sobre a tecla."),t()()(),o(428,"tr",14)(429,"td",15)(430,"div",23)(431,"span",24),e(432," p-label"),i(433,"br"),t()()(),o(434,"td",19)(435,"code",25),e(436,"string"),t()(),o(437,"td",21),e(438,"-"),t(),o(439,"td",22)(440,"em")(441,"strong"),e(442,"(opcional)"),t()(),o(443,"p"),e(444,"Label do campo"),t()()(),o(445,"tr",14)(446,"td",15)(447,"div",23)(448,"span",24),e(449," p-label-text-wrap"),i(450,"br"),t()()(),o(451,"td",19)(452,"code",26),e(453,"boolean"),t()(),o(454,"td",21)(455,"p")(456,"code"),e(457,"false"),t()()(),o(458,"td",22)(459,"em")(460,"strong"),e(461,"(opcional)"),t()(),o(462,"p"),e(463,"Habilita a quebra autom\xE1tica do texto da propriedade "),o(464,"code"),e(465,"p-label"),t(),e(466,". Quando "),o(467,"code"),e(468,"p-label-text-wrap"),t(),e(469,` for verdadeiro, o texto que excede
+o espa\xE7o dispon\xEDvel \xE9 transferido para a pr\xF3xima linha em pontos apropriados para uma
+leitura clara.`),t()()(),o(470,"tr",14)(471,"td",15)(472,"div",23)(473,"span",24),e(474," name"),i(475,"br"),t()()(),o(476,"td",19)(477,"code",25),e(478,"string"),t()(),o(479,"td",21),e(480,"-"),t(),o(481,"td",22)(482,"p"),e(483,"Nome dos checkboxes"),t()()(),o(484,"tr",14)(485,"td",15)(486,"div",16)(487,"span",17),e(488," (ngModelChange)"),i(489,"br"),t()()(),o(490,"td",19)(491,"code",20),e(492,"EventEmitter"),t()(),o(493,"td",21),e(494,"-"),t(),o(495,"td",22)(496,"em")(497,"strong"),e(498,"(opcional)"),t()(),o(499,"p"),e(500,"Fun\xE7\xE3o para atualizar o "),o(501,"code"),e(502,"ngModel"),t(),e(503," do componente, necess\xE1rio quando n\xE3o for utilizado dentro da tag form."),t(),o(504,"p"),e(505,"Na vers\xE3o 12.2.0 do Angular a verifica\xE7\xE3o "),o(506,"code"),e(507,"strictTemplates"),t(),e(508,` vem true como default. Portanto, para utilizar
+two-way binding no componente deve se utilizar da seguinte forma:`),t(),o(509,"pre")(510,"code"),e(511,`<po-checkbox-group ... [ngModel]="checkboxgroupModel" (ngModelChange)="checkboxgroupModel = $event"> </po-checkbox-group>
+`),t()()()(),o(512,"tr",14)(513,"td",15)(514,"div",23)(515,"span",24),e(516," p-optional"),i(517,"br"),t()()(),o(518,"td",19)(519,"code",26),e(520,"boolean"),t()(),o(521,"td",21)(522,"p")(523,"code"),e(524,"false"),t()()(),o(525,"td",22)(526,"em")(527,"strong"),e(528,"(opcional)"),t()(),o(529,"p"),e(530,"Define se a indica\xE7\xE3o de campo opcional ser\xE1 exibida."),t(),o(531,"blockquote")(532,"p"),e(533,"N\xE3o ser\xE1 exibida a indica\xE7\xE3o se:"),t()(),o(534,"ul")(535,"li"),e(536,"O campo conter "),o(537,"code"),e(538,"p-required"),t(),e(539,";"),t(),o(540,"li"),e(541,"N\xE3o possuir "),o(542,"code"),e(543,"p-help"),t(),e(544," e/ou "),o(545,"code"),e(546,"p-label"),t(),e(547,"."),t()()()(),o(548,"tr",14)(549,"td",15)(550,"div",23)(551,"span",24),e(552," p-options"),i(553,"br"),t()()(),o(554,"td",19)(555,"code",28),e(556,"PoCheckboxGroupOption[]"),t()(),o(557,"td",21),e(558,"-"),t(),o(559,"td",22)(560,"em")(561,"strong"),e(562,"(opcional)"),t()(),o(563,"p"),e(564,`Lista de op\xE7\xF5es que ser\xE3o exibidas
+Nesta propriedade deve ser definido um array de objetos que implementam a interface PoCheckboxGroupOption`),t()()(),o(565,"tr",14)(566,"td",15)(567,"div",23)(568,"span",24),e(569," p-helper"),i(570,"br"),t()()(),o(571,"td",19)(572,"code",29),e(573,"PoHelperOptions "),t(),o(574,"code",25),e(575," string"),t()(),o(576,"td",21),e(577,"-"),t(),o(578,"td",22)(579,"em")(580,"strong"),e(581,"(opcional)"),t()(),o(582,"p"),e(583,"Define as op\xE7\xF5es do componente de ajuda (po-helper) que ser\xE1 exibido ao lado do label."),t(),o(584,"blockquote")(585,"p"),e(586,"Ao configurar esta propriedade, o antigo \xEDcone de ajuda adicional ("),o(587,"code"),e(588,"p-additional-help-tooltip"),t(),e(589," e "),o(590,"code"),e(591,"p-additional-help"),t(),e(592,") ser\xE1 ignorado."),t()()()(),o(593,"tr",14)(594,"td",15)(595,"div",23)(596,"span",24),e(597," p-required"),i(598,"br"),t()()(),o(599,"td",19)(600,"code",26),e(601,"boolean"),t()(),o(602,"td",21)(603,"p")(604,"code"),e(605,"false"),t()()(),o(606,"td",22)(607,"em")(608,"strong"),e(609,"(opcional)"),t()(),o(610,"p"),e(611,"Define que o campo ser\xE1 obrigat\xF3rio."),t()()(),o(612,"tr",14)(613,"td",15)(614,"div",23)(615,"span",24),e(616," p-show-required"),i(617,"br"),t()()(),o(618,"td",19)(619,"code",26),e(620,"boolean"),t()(),o(621,"td",21),e(622,"-"),t(),o(623,"td",22)(624,"p"),e(625,"Define se a indica\xE7\xE3o de campo obrigat\xF3rio ser\xE1 exibida."),t(),o(626,"blockquote")(627,"p"),e(628,"N\xE3o ser\xE1 exibida a indica\xE7\xE3o se:"),t()(),o(629,"ul")(630,"li"),e(631,"N\xE3o possuir "),o(632,"code"),e(633,"p-help"),t(),e(634," e/ou "),o(635,"code"),e(636,"p-label"),t(),e(637,"."),t()()()(),o(638,"tr",14)(639,"td",15)(640,"div",23)(641,"span",24),e(642," p-size"),i(643,"br"),t()()(),o(644,"td",19)(645,"code",25),e(646,"string"),t()(),o(647,"td",21)(648,"p")(649,"code"),e(650,"medium"),t()()(),o(651,"td",22)(652,"em")(653,"strong"),e(654,"(opcional)"),t()(),o(655,"p"),e(656,"Define o tamanho dos checkboxes do componente:"),t(),o(657,"ul")(658,"li")(659,"code"),e(660,"small"),t(),e(661,": 16x16 (dispon\xEDvel apenas para acessibilidade AA)."),t(),o(662,"li")(663,"code"),e(664,"medium"),t(),e(665,": 24x24."),t()(),o(666,"blockquote")(667,"p"),e(668,"Caso a acessibilidade AA n\xE3o esteja configurada, o tamanho "),o(669,"code"),e(670,"medium"),t(),e(671,` ser\xE1 mantido.
+Para mais detalhes, consulte a documenta\xE7\xE3o do `),o(672,"a",30),e(673,"po-theme"),t(),e(674,"."),t()()()()(),o(675,"h3",10),e(676,"M\xE9todos"),t(),o(677,"table",31)(678,"tr",14)(679,"th",32)(680,"div",23)(681,"h4")(682,"span",24),e(683," focus "),t()()()()(),o(684,"tr",22)(685,"td",22)(686,"p"),e(687,"Fun\xE7\xE3o que atribui foco ao componente."),t(),o(688,"p"),e(689,"Para utiliz\xE1-la \xE9 necess\xE1rio ter a inst\xE2ncia do componente no DOM, podendo ser utilizado o ViewChild da seguinte forma:"),t(),o(690,"pre")(691,"code"),e(692,`import { PoCheckboxGroupComponent } from '@po-ui/ng-components';
+
+...
+
+@ViewChild(PoCheckboxGroupComponent, { static: true }) checkbox: PoCheckboxGroupComponent;
+
+focusCheckbox() {
+  this.checkbox.focus();
+}
+`),t()()()()(),i(693,"br"),o(694,"table",31)(695,"tr",14)(696,"th",32)(697,"div",23)(698,"h4")(699,"span",24),e(700," showAdditionalHelp "),t()()()()(),o(701,"tr",22)(702,"td",22)(703,"p"),e(704,"M\xE9todo que exibe "),o(705,"code"),e(706,"p-helper"),t(),e(707," ou executa a a\xE7\xE3o definida em "),o(708,"code"),e(709,"p-helper{eventOnClick}"),t(),e(710," ou em "),o(711,"code"),e(712,"p-additionalHelp"),t(),e(713,`.
+Para isso, ser\xE1 necess\xE1rio configurar uma tecla de atalho utilizando o evento `),o(714,"code"),e(715,"p-keydown"),t(),e(716,"."),t(),o(717,"blockquote")(718,"p"),e(719,"Exibe ou oculta o conte\xFAdo do componente "),o(720,"code"),e(721,"po-helper"),t(),e(722," quando o componente estiver com foco."),t()(),o(723,"pre")(724,"code"),e(725,`//Exemplo com p-label e p-helper
+<po-checkbox-group
+ #checkboxGroup
+ ...
+ p-label="Label do checkbox"
+ [p-helper]="helperOptions"
+ (p-keydown)="onKeyDown($event, checkboxGroup)"
+></po-checkbox-group>
+`),t()(),o(726,"pre")(727,"code"),e(728,`...
+onKeyDown(event: KeyboardEvent, inp: PoCheckboxGroupComponent): void {
+ if (event.code === 'F9') {
+   inp.showAdditionalHelp();
+ }
+}
+`),t()()()()(),i(729,"br"),o(730,"h3"),e(731,"Interfaces"),t(),o(732,"h4",33)(733,"code",5),e(734,"PoCheckboxGroupOption"),t()(),o(735,"div",2)(736,"p"),e(737,"Interface para as a\xE7\xF5es do componente po-checkbox-group."),t()(),o(738,"h4",10),e(739,"Propriedades"),t(),o(740,"table",11)(741,"tr",12)(742,"th",13),e(743,"Nome"),t(),o(744,"th",13),e(745,"Tipo"),t(),o(746,"th",13),e(747,"Descri\xE7\xE3o"),t()(),o(748,"tr",14)(749,"td",15)(750,"div",23)(751,"span",24),e(752," disabled"),i(753,"br"),t()()(),o(754,"td",19)(755,"code",26),e(756,"boolean"),t()(),o(757,"td",22)(758,"em")(759,"strong"),e(760,"(opcional)"),t()(),o(761,"p"),e(762,"Desabilita o checkbox, por padr\xE3o as op\xE7\xF5es sempre estar\xE3o habilitadas para o usu\xE1rio."),t(),o(763,"p"),e(764,`Mesmo desabilitado o desenvolvedor pode alterar o valor do item via c\xF3digo, mas n\xE3o ser\xE1 permitido ao
+usu\xE1rio alterar a condi\xE7\xE3o do checkbox.`),t()()(),o(765,"tr",14)(766,"td",15)(767,"div",23)(768,"span",24),e(769," label"),i(770,"br"),t()()(),o(771,"td",19)(772,"code",25),e(773,"string"),t()(),o(774,"td",22)(775,"p"),e(776,"Texto exibido para o usu\xE1rio ao lado do checkbox."),t()()(),o(777,"tr",14)(778,"td",15)(779,"div",23)(780,"span",24),e(781," value"),i(782,"br"),t()()(),o(783,"td",19)(784,"code",25),e(785,"string"),t()(),o(786,"td",22)(787,"p"),e(788,"Valor retornado no model."),t(),o(789,"p"),e(790,"\xC9 poss\xEDvel usar os valores "),o(791,"code"),e(792,"true"),t(),e(793," e "),o(794,"code"),e(795,"false"),t(),e(796,", caso a propriedade "),o(797,"code"),e(798,"p-indeterminate"),t(),e(799," esteja setada como "),o(800,"code"),e(801,"true"),t(),e(802,`
+passa a aceitar `),o(803,"code"),e(804,"null"),t(),e(805," tamb\xE9m, por padr\xE3o esse valor sempre ser\xE1 setado como "),o(806,"code"),e(807,"false"),t(),e(808,"."),t()()()()())},dependencies:[k],encapsulation:2})}return a})();var ue=(()=>{class a{route;router;sub;hidePoWebSample=!0;samplesLength=3;activeTab="doc";actions=[{label:"Documenta\xE7\xE3o",action:this.goBack.bind(this),icon:"an an-file-text"},{label:"Colabore",action:this.improveDocs.bind(this)}];constructor(m,p){this.route=m,this.router=p}goBack(){this.router.navigate(["documentation"])}improveDocs(){this.router.navigate(["guides/development-flow"])}ngOnInit(){this.sub=this.route.queryParams.subscribe(m=>{let p=m.view;this.activeTab=p||"doc",this.hidePoWebSample=this.samplesLength===0})}changeTab(m){this.router.navigate([],{queryParams:{view:m},queryParamsHandling:"merge"}),this.activeTab=m}ngOnDestroy(){this.sub.unsubscribe()}static \u0275fac=function(p){return new(p||a)(z(Y),z(Z))};static \u0275cmp=h({type:a,selectors:[["ng-component"]],standalone:!1,decls:8,vars:4,consts:[["p-title","Checkbox Group",3,"p-actions"],["p-size","1"],["p-label","Documenta\xE7\xE3o",3,"p-click","p-active"],["p-label","Exemplos",3,"p-click","p-hide","p-active"]],template:function(p,n){p&1&&(o(0,"po-page-default",0)(1,"po-tabs",1)(2,"po-tab",2),S("p-click",function(){return n.changeTab("doc")}),i(3,"sample-po-checkbox-group-doc"),t(),o(4,"po-tab",3),S("p-click",function(){return n.changeTab("web")}),i(5,"sample-po-checkbox-group-basic-view")(6,"sample-po-checkbox-group-labs-view")(7,"sample-po-checkbox-group-password-policy-view"),t()()()),p&2&&(s("p-actions",n.actions),r(2),s("p-active",n.activeTab==="doc"),r(2),s("p-hide",n.hidePoWebSample)("p-active",n.activeTab==="web"))},dependencies:[ie,v,C,pe,de,se,ce],encapsulation:2})}return a})();var Te=[{path:"",component:ue}],be=(()=>{class a{static \u0275fac=function(p){return new(p||a)};static \u0275mod=O({type:a});static \u0275inj=T({imports:[j.forChild(Te),j]})}return a})();var nt=(()=>{class a{static \u0275fac=function(p){return new(p||a)};static \u0275mod=O({type:a});static \u0275inj=T({imports:[ae,be]})}return a})();export{nt as DocPoCheckboxGroupModule};
